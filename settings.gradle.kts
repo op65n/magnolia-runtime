@@ -5,6 +5,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = "forktest"
+rootProject.name = "magnolia-runtime"
 
-include("forktest-api", "forktest-server")
+include("magnolia-core", "magnolia-api", "magnolia-legacy-api", "magnolia-server")
