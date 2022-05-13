@@ -1,5 +1,7 @@
 <img src="assets/magnolia-runtime.png" title="magnolia runtime" alt="magnolia runtime">
 
+**WARNING: This software is still in its early stages, it is NOT production ready! (Well technically it could be, but you know what I mean.)**
+
 Magnolia runtime is a different-ish paper server fork for following reasons:
 * Instead of patching server code directly everything will be gradually moved overt to `magnolia-core` module that does not require patches for changes
 * Bukkit, Spigot and Paper APIs will be gradually deprecated and their new replacement will be implemented in `magnolia-api` module that again does not require patches for changing things
